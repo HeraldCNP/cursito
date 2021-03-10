@@ -2,7 +2,7 @@
 
     $link = 'mysql:host=localhost; dbname=cursito';
     $user = 'root';
-    $password = '';
+    $password = 'root';
     // echo "conectado";
     try{
         $conec = new PDO($link, $user, $password);
